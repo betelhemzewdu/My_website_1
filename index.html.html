@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhD Student | Personal Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar a {
+            color: white !important;
+        }
+        .section {
+            padding: 60px 20px;
+            display: none;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin-top: 1px;
+        }
+		footer {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+				}
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #007bff;
+            font-size: 24px;
+        }
+        .search-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+		#home {
+              padding-top: 0px; /* Reduce top padding */
+					}
+        #home p {
+            text-align: justify;
+        }
+		#home {
+             padding-top: 0px; /* Reduce top padding */
+				}
+        .container {
+            max-width: 1200px;
+        }
+        .row .col-md-6 {
+            padding: 20px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 1px;
+        }
+        .social-links a {
+            margin: 0 15px;
+            font-size: 24px;
+            color: #007bff;
+        }
+        .interests-section {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="showSection('home')"><h5>Betelhem Zewdu Wubineh</h5></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('home')">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#" onclick="showSection('publications')">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('research')">Grant and Awards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('skills')">Skills</a></li>
+                    <!--<li class="nav-item"><a class="nav-link" href="#" onclick="showSection('teaching')">Teaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('contact')">Contact</a></li> -->
+				<!--	<li class="nav-item">
+					<li class="nav-item ms-auto">
+        <div class="search-container">
+            <input type="text" class="form-control" id="searchInput" style="width: 300px;" placeholder="Search...">
+        </div> 
+    </li> -->
+							
+					<!-- Search Bar Below Menu -->
+					<!--<li><div class="search-container"><input type="text" class="form-control w-50 mx-auto" width= 30px, placeholder="Search..."></div></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <!-- Home Section -->
+    <section id="home" class="section text-center" style="display: block;">
+      <!--  <h1>About me</h1>  -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="photo 2.jpg" alt="Profile Photo" class="profile-img">
+                    <h4 style="text-align: left">Education</h4>
+                    <ul style="text-align: justify;">
+                    <li><b>PhD in Computer Engineering </b> - Wroclaw University of Science and Technology, Oct 2022 - Present, Wroclaw, Poland.</li>
+                    <li><b>Master’s in Information Technology </b> - Bahir Dar University, Oct 2015 - Sep 2017, Bahir Dar, Ethiopia.</li>
+                    <li><b>Bachelor’s in Information Technology </b>- University of Gondar, Oct 2010 - July 2014, Gondar, Ethiopia.</li>
+                    </ul>
+                    <h4 style="text-align: left">Interests</h4>
+                    <ul style="text-align: justify;">
+                        <li>Medical Image Processing</li>
+                        <li>Deep Learning</li>
+                        <!--<li>Cervical Cancer Detection</li>-->
+                        <li>Machine Learning</li>
+                        <li>Data Mining</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+				    <h4><p style="text-align: justify;"> <b>About me </b></p></h4>
+                    <p style="text-align: justify;">
+                        Hello! My name is Betelhem Zewdu Wubineh, and I am a PhD student specializing in Computer Engineering, with a focus on medical image processing and cervical cancer detection using deep learning techniques. My research aims to develop innovative algorithms that enhance the accuracy and efficiency of diagnostic tools, contributing to early cancer detection.
+                    </p>
+                    <p style="text-align: justify;">
+                        I hold a B.Sc. in Information Technology from the University of Gondar, Ethiopia (2014) and an M.Sc. from Bahir Dar University, Ethiopia (2017). Currently, I'm pursuing my Ph.D. at Wroclaw University of Science and Technology, Poland. Passionate about healthcare technology, I aim to improve early-stage cervical cancer diagnostics.
+						<!--I received my B.Sc. in Information Technology from the University of Gondar, Ethiopia (2014) and my M.Sc. in Information Technology from Bahir Dar University, Ethiopia (2017). Currently, I am pursuing my Ph.D. in Computer Engineering at Wroclaw University of Science and Technology in Wroclaw, Poland. I am also passionate about the potential impact of technology in healthcare, specifically in improving the diagnostic processes for early-stage cervical cancer detection. -->
+                    </p>
+                    <p style="text-align: justify;">
+                        From October 2017 to September 2022, I worked as a Lecturer and Junior Researcher at Wachemo University, Ethiopia. From October 2020 to September 2022, I also served as Head of the IT Department, leading academic and administrative initiatives, managing departmental operations, and ensuring a high standard of education and research.
+						<!--From October 2017 to September 2022, I served as a Lecturer and a Junior Researcher in the Information Technology Department at Wachemo University, Ethiopia. During my tenure, I had the opportunity to not only teach but also contribute to the growth of the department. From October 2020 to September 2022, I was entrusted with the role of Head of the Information Technology Department, where I led various academic and administrative initiatives, managed departmental operations, and worked to ensure a high standard of education and research within the department. -->
+                    </p>
+               
+
+                <div class="social-links">
+                <a href="https://www.researchgate.net/profile/Betelhem-Wubineh?ev=hdr_xprf" target="_blank"><i class="fab fa-researchgate"></i>
+                <img src="RG.png" alt="ResearchGate" style="width: 30px; height: 30px;"/></a>
+                <a href="https://scholar.google.com/citations?user=LeqXhdwAAAAJ&hl=en&oi=ao" target="_blank"><i class="fab fa-linkedin"></i> 
+                <img src="GS.png" alt="Google Scholar" style="width: 30px; height: 30px;"/></a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fab fa-google"></i>
+                <img src="LI.png" alt="LinkedIn" style="width: 30px; height: 30px;"/></a>
+                <a href="mailto:betelhem.wubineh@pwr.edu.pl" target="_blank"><i class="fab fa-google"></i>
+                <img src="Mail.png" alt="Mail" style="width: 30px; height: 30px;"/></a>
+				<a href="https://orcid.org/0000-0002-4790-7449" target="_blank"><i class="fab fa-google"></i>
+                <img src="ORCID.png" alt="ORCiD" style="width: 30px; height: 30px;"/></a>
+				<a href="https://ieeexplore.ieee.org/author/37090076587" target="_blank"><i class="fab fa-google"></i>
+                <img src="IEEE.png" alt="IEEE" style="width: 30px; height: 30px;"/></a>
+				<a href="https://www.semanticscholar.org/author/Betelhem-Zewdu-Wubineh/2203117975" target="_blank"><i class="fab fa-google"></i>
+                <img src="Sem Sch.png" alt="Semantic Scholar" style="width: 30px; height: 30px;"/></a>
+				
+                </div>
+			 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+	
+	<section id="skills" class="section text-center">
+    <h1>Skills</h1>
+    <div class="container">
+        <!-- Programming Skills -->
+		<ul style="text-align: justify;">
+        <div class="row">
+             <li>Programming - C++, Java, Python (Pandas, Scikit-learn, NumPy)</li>
+			 <li>Data Analysis and Visualization - Power BI, Excel, Google Sheets, Matplotlib</li>
+			 <li>Database and Data Management - SQL, Oracle, WEKA</li>
+			 <li>Web Development - HTML, CSS, JavaScript</li>
+			 <li>Microsoft Packages - Word, Excel, PPT, Outlook, Publisher</li>
+		     <li>Machine Learning and AI - Deep Learning, CNN, Transfer Learning, Random Forest</li>
+		     <li>Project Management - Gantt Chart Design, Agile Methods</li>
+			 <li>Soft Skills - Teamwork, Multitasking, Adaptability, Technical Writing</li>
+    </div>
+	</ul>
+</section>
+
+
+
+
+    <!-- Project and Research Grant Section -->
+    <section id="research" class="section text-center">
+        <h1>Grants and Awards</h1>
+    <div class="container">
+        <p>Details of research projects and grants go here. You can list any research initiatives or funding you have received for your work.</p>
+        <h4> Grants </h4>
+		<ul style="text-align: justify;" >
+		<li><b> <p>Mini-grant of doctoral student from Wroclaw University of Science and Technology </p></b>
+        <p><strong>Funding Amount:</strong> PLN 19,700</p>
+        <p><strong>Duration:</strong> April 2024 – November 2024</p>
+        <p><strong>Funding Agency:</strong> Wroclaw University of Science and Technology</p>
+        <p><strong>Project Supervisor:</strong> dr. hab. inż. Andrzej Rusiecki prof. uczelni</p>
+		<p><strong>Principal Investigator:</strong> Betelhem Zewdu Wubineh</p>
+        <p><strong>Research Institution:</strong> Wroclaw University of Science and Technology</p>
+    </li>
+	</div>
+		
+	<div class="container">
+	    <h4> Awards </h4>
+		<ul style="text-align: justify;" >
+        <li><b><p>Rector's Award</p></b></li>
+        <p><strong>Date:</strong> November 2024</p>
+        <p><strong>Institution:</strong> Wroclaw University of Science and Technology</p>
+    </div>
+    </section>
+
+   <!-- Publications Section -->
+<section id="publications" class="section text-center">
+    <h1>Publications</h1>
+    <div class="container">
+        <p>Below is a list of my recent publications, showcasing my contributions to various research areas such as AI, medical image processing, deep learning, machine learning, healthcare, and more.</p>
+        
+        <h3>In 2024</h3>  
+        <ol style="text-align: justify;">
+            <li><b>Betelhem Zewdu Wubineh</b>, Andrzej Rusiecki, Krzysztof Halawa, Segmentation and Classification Techniques for Pap Smear Images in Detecting Cervical Cancer: A Systematic Review, IEEE Access, Vol 12, 2024, DOI: <a href="https://ieeexplore.ieee.org/abstract/document/10643574", target="_blank"> 10.1109/ACCESS.2024.3447887</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Andrzej Rusiecki, Krzysztof Halawa, Classification of Cervical Cells from the Pap Smear Image using the RES_DCGAN Data Augmentation and ResNet50V2 with Self-Attention Architecture, Neural Computing and Applications, 2024, DOI:<a href="https://link.springer.com/article/10.1007/s00521-024-10404-x", target="_blank">10.1007/s00521-024-10404-x</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Andrzej Rusiecki, Krzysztof Halawa, Segmentation of Cytology Images to Detect Cervical Cancer Using Deep Learning Techniques, 24th International Conference on Computational Science (ICCS 2024), 2024, DOI: <a href="https://link.springer.com/chapter/10.1007/978-3-031-63772-8_25", target="_blank"> 10.1007/978-3-031-63772-8_25</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Andrzej Rusiecki, Krzysztof Halawa, Data Augmentation Techniques to Detect Cervical Cancer using Deep Learning: A Systematic Review, 19th International Conference on Dependability of Computer Systems (DepCoS-RELCOMEX 2024), 2024, DOI:  <a href="https://link.springer.com/chapter/10.1007/978-3-031-61857-4_32", target="_blank">10.1007/978-3-031-61857-4_32</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Andrzej Rusiecki, Krzysztof Halawa, Cervical Cell Segmentation and Classification Using U-Net and Hybrid VGG19-AlexNet Architecture, International Conference on Information and Communication Technology for Development for Africa (ICT4DA), 2024, IEEE, DOI: <a href="https://ieeexplore.ieee.org/abstract/document/10777181", target="_blank"> 10.1109/ICT4DA62874.2024.10777181</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Crime Analysis And Prediction Using Machine-Learning Approach In the Case of Hossana Police Commission, Security Journal, 2024, DOI: <a href="https://link.springer.com/article/10.1057/s41284-024-00416-6", target="_blank">  10.1057/s41284-024-00416-6</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Fitsum Deriba, Michael Woldeyohannis, Exploring the Opportunities and Challenges of Implementing AI In Healthcare: A Systematic Literature Review, Urologic Oncology: Seminars and Original Investigations, vol. 42, no. 3, 2024, DOI:<a href="https://www.sciencedirect.com/science/article/pii/S1078143923004179", target="_blank"> 10.1016/j.urolonc.2023.11.019</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Sosina Dires Sewunet, Classifying Dairy Farmers’ Knowledge, Attitudes, and Practices towards Aflatoxin Using Bootstrap Oversampling and Machine Learning, International Conference on Information and Communication Technology for Development for Africa (ICT4DA), 2024, IEEE, DOI: <a href="https://ieeexplore.ieee.org/abstract/document/10777180", target="_blank"> 10.1109/ICT4DA62874.2024.10777180</a></li>
+            <li>Fitsum Gizachew Deriba, <b>Betelhem Zewdu Wubineh</b>, Mengistu Zenebe Teka, Review of AI Technologies for Enhancing the Lives of Visually Impaired Individuals: Applications, Outcomes, and Future Directions, International Conference on Information and Communication Technology for Development for Africa (ICT4DA), 2024, IEEE, DOI: <a href="https://ieeexplore.ieee.org/abstract/document/10777268", target="_blank"> 10.1109/ICT4DA62874.2024.10777268</a></li>
+            <li>Semachew Molla Kassa, <b>Betelhem Zewdu Wubineh</b>, Africa Mulumar Geremew, Tezera Firew Azmatch, N. Darga Kumar, Prediction of Compaction Parameters Based on the Atterberg Limit by Using a Machine Learning Approach, 7th EAI International Conference on Robotic Sensor Networks. ROSENET 2023. EAI/Springer Innovations in Communication and Computing. Springer, 2024, DOI: <a href="https://link.springer.com/chapter/10.1007/978-3-031-64151-0_10", target="_blank"> 10.1007/978-3-031-64151-0_10</a></li>
+</ol>
+
+         <h3>In 2023</h3>   
+        <ol style="text-align: justify;">
+            <li>Semachew Kassa, <b>Betelhem Zewdu Wubineh</b>, Use of Machine Learning to Predict California Bearing Ratio of Soils, Advances in Civil Engineering, 2023(1), 2023, DOI: <a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2023/8198648", target="_blank"> 10.1155/2023/8198648</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Yigezu Asamenew, Semachew Kassa, Prediction of Road Traffic Accident Severity Using Machine Learning Techniques in the Case of Addis Ababa, 7th EAI International Conference on Robotic Sensor Networks (ROSENET 2023), 2024, DOI: <a href="https://link.springer.com/chapter/10.1007/978-3-031-64495-5_10", target="_blank"> 10.1007/978-3-031-64495-5_10</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Biniyam Metekiya, A Knowledge-Based System to Predict Crime from Criminal Records in the Case of Hossana Police Commission, International Conference on Information and Communication Technology for Development for Africa (ICT4DA), 2023, DOI: <a href="https://ieeexplore.ieee.org/abstract/document/10302252", target="_blank"> 10.1109/ICT4DA59526.2023.10302252</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Ayodeji Salau, Sepiribo Braide, Knowledge-based Expert System for Diagnosis of COVID-19, Journal of Pharmaceutical Negative Results, 2023, DOI: <a href="https://mail.pnrjournal.com/index.php/home/article/view/8282", target="_blank"> 10.47750/pnr.2023.14.03.165</a></li>
+            <li><b>Betelhem Zewdu Wubineh</b>, Gebeyehu Belay Gebremeskel, Demystifying predictive analytics with data mining to optimize fraud detection in the insurance industry, International Conference on Advances of Science and Technology (EAI ICAST) 2020, DOI: <a href="https://link.springer.com/chapter/10.1007/978-3-030-80621-7_31", target="_blank">10.1007/978-3-031-64151-0_10 </a></li>
+</ol>
+    </div>
+</section>
+
+
+       
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Betelhem Z. Wubineh | PhD Student</p>
+    </footer>
+
+    <script>
+        // JavaScript to show and hide sections based on clicks
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');  // Hide all sections
+            const activeSection = document.getElementById(sectionId);
+            activeSection.style.display = 'block';  // Show the clicked section
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
